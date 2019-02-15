@@ -1,0 +1,76 @@
+#flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto 10px 10px;
+}
+
+#search {
+	position: relative;
+}
+
+#search input {
+	width: 210px;
+	float: right;
+	border: 3px solid #BD3D3A;
+	border-radius: 5px;
+	padding: 5px;
+	text-indent: 5px;
+  	height: 20px;
+  	outline: none;
+}
+
+#search button {
+	position: absolute;
+	right: 0px;  
+	width: 40px;
+	height: 36px;
+	border: 1px solid #BD3D3A;
+	font-size: 20px;
+	color: white;
+	background-color: #BD3D3A;
+}
+
+#no-students {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 15px 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr {
+	border-bottom: 1px solid #605052;
+}
+
+tr:nth-child(even) {
+	background-color: #EAE6DA; 
+}
+
+th, td {
+	padding: 10px 0;
+}
+
+th {
+	color: #110c11;
+	background-color: #D5AE41;
+}
+
+td {
+	text-align: center;
+}
+
+.form-inline {
+	display: inline;
+}
+
+.btn-add-student {
+	color: white;
+	background-color: #BD3D3A;
+	font-size: larger;
+	padding: 10px;
+}

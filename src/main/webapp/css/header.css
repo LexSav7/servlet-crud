@@ -1,0 +1,17 @@
+#header {
+	margin-bottom: 25px;
+}
+
+#header h2 {
+	width: 100%;
+	color: white;
+	background-color: #BD3D3A;
+	font-weight: bold;
+	text-indent: 25px;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+
+#header a {
+	text-decoration: none;
+}
